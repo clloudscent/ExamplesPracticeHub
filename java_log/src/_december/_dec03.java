@@ -9,5 +9,4 @@ public class _dec03 {
 		//소수점 자리 지정시
 		System.out.printf("소수점 자리수 지정: %.3f%n",f);
 	}
-
 }
