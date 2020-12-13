@@ -18,7 +18,7 @@ public class _1460 {
 			}
 		}
 		
-		// 배열의 값을 공백을 한칸씩 두고 출력
+		// 배열의 값을 공백을 한칸씩 두고 출력.
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[0].length; j++) {
 				System.out.print(arr[i][j] + " ");//한칸씩 띄고
