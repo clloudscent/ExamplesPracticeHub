@@ -2,12 +2,10 @@ package class_review;
 
 public class ex11apply {
 	public static void main(String[] args) {
-		int score = (int)(Math.random()*40)+61; 
+		int score = (int)(Math.random()*50)+51; 
 		System.out.println("점수 : " + score);
-		System.out.println("학점 : " + grade);
-		
-		String grade;
-		
+		String grade ;
+						
 		if(score>95) {
 			grade="A+";
 		}
@@ -34,7 +32,7 @@ public class ex11apply {
 		}
 	
 		
-				
+			System.out.println("학점: "+ grade);	
 			}
 			}
 			
