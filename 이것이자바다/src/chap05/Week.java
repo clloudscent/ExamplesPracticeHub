@@ -1,6 +1,6 @@
 package chap05;
 
-public enum week {
+public enum Week {
 	MONDAY,
 	TUESDAY,
 	WEDNESDAY,
@@ -8,5 +8,4 @@ public enum week {
 	FRIDAY,
 	SATURDAY,
 	SUNDAY
-
 }
