@@ -7,6 +7,9 @@ public class EnumWeekExample {
 		Week today = null;
 
 		Calendar cal = Calendar.getInstance();
+		// cal.get( [index] ) 
+		// index 번호에 맞는 요일 값을 가져온다.
+		// Calendar.DAY_OF_WEEK : 오늘의 요일을 숫자로 환산  (1 : 일요일 ~ 7 : 토요일)
 		int week = cal.get(Calendar.DAY_OF_WEEK);
 
 		switch (week) {

@@ -8,7 +8,7 @@ public class ArrayReferenceObjectExample {
 		strArray[2] = new String("Java");
 
 		System.out.println(strArray[0] == strArray[1]);
-		System.out.println(strArray[0] == strArray[2]);
+		System.out.println(strArray[0] == strArray[2]); //new string
 		System.out.println(strArray[0].contentEquals(strArray[2]));
 	}
 
