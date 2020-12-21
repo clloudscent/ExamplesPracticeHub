@@ -1,4 +1,4 @@
-package chap02.inheritance;
+package 실습.chap02.inheritance;
 
 public class Boeing787 extends Boeing737 {
 	
