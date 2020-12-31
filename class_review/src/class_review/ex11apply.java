@@ -4,7 +4,7 @@ public class ex11apply {
 	public static void main(String[] args) {
 		int score = (int)(Math.random()*50)+51; 
 		System.out.println("점수 : " + score);
-		String grade ;
+		String grade = null ;
 						
 		if(score>95) {
 			grade="A+";
